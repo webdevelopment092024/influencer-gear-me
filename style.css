@@ -1,9 +1,11 @@
 body{
     margin: 80px;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .header-text{
     color: rgb(58, 58, 58);
@@ -38,18 +40,23 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 .first-text-sec h1{
     color: rgb(58, 58, 58);
     font-family: Poppins;
     font-size: 52px;
     font-weight: 700;
+    margin-bottom: 16px;
+
 }
 .first-text-sec p{
     color: rgb(58, 58, 58);
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
 }
 .first-text-sec button{
     border-radius: 41px;
@@ -58,7 +65,7 @@ nav{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 700;
-    padding: 5px 30px;
+    padding: 10px 24px;
     text-align: left;
     border: none;
 }
@@ -66,4 +73,5 @@ nav{
     background-image: url(images/Circledesign.svg);
     background-repeat: no-repeat;
 }
+
 
