@@ -304,9 +304,9 @@ nav{
     /* feature-part  */
     .features-section{
         flex-direction: column-reverse;
-        margin-left: 30px;
+        margin-left: 0px;
         gap: 96px;
-        margin-right: 10px;
+        margin-right: 0px;
         margin-top: 100px;
         margin-bottom: 100px;
 
