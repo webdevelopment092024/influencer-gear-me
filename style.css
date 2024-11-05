@@ -117,6 +117,7 @@ nav{
     margin-left: 30vh;
     margin-right: 30vh;
     align-items: center;
+    margin-bottom: 0px;
   }
   .all-collection{
     display:grid ;
@@ -177,6 +178,62 @@ nav{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.seemore{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.arrow-sign{
+    margin-left: 5px;
+}
+
+/* feature-part  */
+.features-section{
+    display: flex;
+    margin-left: 250px;
+    gap: 96px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.gear-image{
+    border-radius: 7px;
+    width: 404px;
+    height: 270px;
+
+}
+
+.feature-head{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-text{
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-right: 209px;
+}
+.feature-join{
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 24px ;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
 
 /* For mobile device */
 @media screen and (max-width:576px) {
@@ -227,6 +284,8 @@ nav{
     hr{
         display: none;
     }
+
+    /* collection-part  */
     .collection-container{
         margin-left: 30px;
         margin-right: 0;
@@ -237,7 +296,50 @@ nav{
             grid-template-columns: repeat(1,1fr);
             gap: 30px;
     }
-      
+    .seemore{
+
+        margin-right: 30px;
+        margin-top: 30px;
+    }  
+
+    /* feature-part  */
+    .features-section{
+        flex-direction: column-reverse;
+        margin-left: 30px;
+        gap: 96px;
+        margin-right: 10px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+    }
+    .gear-image{
+        border-radius: 7px;
+        width: 359px;
+        height: 258px;
+        margin-top: -60px;
+
+    }
+    
+    .feature-head{
+        margin-bottom: 16px;
+        text-align: center;
+        font-size: 24px;
+
+    }
+    .feature-text{
+        margin-top: 0px;
+        margin-bottom: 16px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .feature-join{
+        margin-top: 0px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .feature-all{
+        text-align: center;
+    }
 }
 
 
