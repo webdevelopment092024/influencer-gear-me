@@ -118,8 +118,8 @@ nav{
     display:grid ;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: calc(20vw - 80px);
+    margin-right: calc(20vw - 80px);
     text-align: center;
   }
   .popular{
