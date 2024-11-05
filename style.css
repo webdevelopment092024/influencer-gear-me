@@ -226,6 +226,7 @@ nav{
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 .feature-text{
     color: rgb(108, 108, 108);
