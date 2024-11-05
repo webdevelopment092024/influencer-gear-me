@@ -211,6 +211,7 @@ nav{
     margin-right: 15vw;
     margin-top: 100px;
     margin-bottom: 100px;
+    justify-content: center;
 }
 .gear-image{
     border-radius: 7px;
