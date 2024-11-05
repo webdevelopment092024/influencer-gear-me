@@ -36,6 +36,12 @@ nav{
     font-weight: 600;
     align-items: center;
 }
+.title li a{
+    text-decoration:none;
+    color: rgb(58, 58, 58);
+}
+
+/* description and camera part  */
 .first-container{
     display: flex;
     justify-content: space-between;
@@ -72,6 +78,166 @@ nav{
 .first-image-sec{
     background-image: url(images/Circledesign.svg);
     background-repeat: no-repeat;
+}
+
+/* Sponsor part  */
+.divider-up{
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+    width: 1360px;
+    height: 2px;
+    margin-top: 100px;
+}
+.other-companies{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top:45px ;
+    margin-bottom:45px ;
+}
+.divider-down{
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+    width: 1360px;
+    height: 2px;
+    margin-bottom: 100px;
+
+}
+ /* collection-part  */
+ .checked {
+    color: orange;
+  }
+  b{
+    padding-left: 5px;
+    color: rgb(94, 99, 102);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .collection-container{
+    margin-left: 30vh;
+    margin-right: 30vh;
+    align-items: center;
+  }
+  .all-collection{
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  }
+  .popular{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .single-collection{
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    width: 329px;
+    height: 476px;
+    align-items: center;   
+    padding-top: 17px;
+    padding-left: 29px;
+    padding-right: 0px;
+    margin:0;
+  }
+.colection-image{
+    border-radius: 5px;
+    margin-bottom: 16px;
+
+}
+.collection-header{
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    margin-top: 0px;
+}
+.collection-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+.rating{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.collection-text{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* For mobile device */
+@media screen and (max-width:576px) {
+    body{
+        margin: 30px;
+    }
+    .first-container{
+        padding-bottom: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .title{
+        padding-left: 0%;
+    }
+    .first-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .first-text-sec h1{
+        font-size: 28px;
+        font-weight: 700;
+            }
+    .first-text-sec p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .first-image-sec{
+        margin-bottom:50px;
+    }
+    /* Sponsor part  */
+    .other-companies{
+        display: flex;
+        margin-left: 0;
+        padding: 0;
+        gap: 30px;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+ 
+    .companies-images{
+
+        height: 25px;
+        width: 60px;
+}
+    hr{
+        display: none;
+    }
+    .collection-container{
+        margin-left: 30px;
+        margin-right: 0;
+        align-items: center;
+      }
+    .all-collection{
+            display:grid ;
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
+    }
+      
 }
 
 
