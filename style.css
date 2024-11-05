@@ -317,7 +317,7 @@ nav{
         width: 359px;
         height: 258px;
         margin-top: -60px;
-
+        align-items: center;
     }
     
     .feature-head{
