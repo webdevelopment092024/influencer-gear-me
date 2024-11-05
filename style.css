@@ -247,7 +247,7 @@ nav{
         flex-direction: column;
     }
     .title{
-        padding-left: 0%;
+        padding-left: 0;
     }
     .first-container{
         flex-direction: column-reverse;
@@ -289,7 +289,6 @@ nav{
     .collection-container{
         margin-left: 0px;
         margin-right: 0px;
-        align-items: center;
       }
     .all-collection{
             display:grid ;
